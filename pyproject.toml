@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "coordinator"
+version = "0.1.0"
+description = ""
+authors = ["Jarrad Hope <jarrad@daemon.ai>"]
+readme = "README.md"
+packages = [
+    { include = "src" }
+]
+
+[tool.poetry.scripts]
+coordinator = "src.main:main"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+github-bot-api = "^0.6.0"
+runpod = "^1.6.2"
+python-dotenv = "^1.0.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
