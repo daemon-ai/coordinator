@@ -1,0 +1,8 @@
+[Unit]
+Description=Coordinator
+
+[Service]
+ExecStart=/home/coordinator/.cache/pypoetry/virtualenvs/coordinator-aUfIQwt4-py3.12/bin/coordinator
+
+[Install]
+WantedBy=multi-user.target

@@ -13,9 +13,15 @@ coordinator = "src.main:main"
 
 [tool.poetry.dependencies]
 python = "^3.12"
-github-bot-api = "^0.6.0"
 runpod = "^1.6.2"
 python-dotenv = "^1.0.1"
+pydantic = "^2.8.2"
+peewee = "^3.17.6"
+fastapi = "^0.112.0"
+pygithub = "^2.3.0"
+rq = "^1.16.2"
+rq-dashboard-fast = "^0.5.3"
+systemd-python = "^235"
 
 [build-system]
 requires = ["poetry-core"]

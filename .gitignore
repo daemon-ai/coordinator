@@ -2,3 +2,6 @@
 __pycache__/
 *.pem
 *.env
+*.db
+*.log
+*.rdb
